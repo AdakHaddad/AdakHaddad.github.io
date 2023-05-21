@@ -7,7 +7,6 @@ import TODOS from "@/components/TodoKMTETI";
 export default function Home() {
   return (
     <div>
-      <Background />
       <Nav />
       <TODOS />
       <Website
