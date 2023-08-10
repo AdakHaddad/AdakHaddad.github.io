@@ -28,9 +28,9 @@ export default function Home() {
         />
         <Nav />
       </Head>
+      <h1 className="text-4xl  text-blue-500">Hello!</h1>
 
       <div className=" flex-col text-center justify-center space-y-4 my-10">
-        <h1 className="text-4xl  text-blue-500">Hello!</h1>
         <h1 className=" text-lg">🦚⛵ Dahulu 🏊‍♀️🏊‍♀️ Kemudian ;{")"}</h1>
         <h1 className="text-sm text-gray mt-60">🌠Scroll for More...🌠</h1>
       </div>
