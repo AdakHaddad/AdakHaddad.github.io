@@ -45,7 +45,12 @@ export default function Home() {
             <p>Design a simple order page for Bingke 61 cake shop </p>
           </div>
           <div className={`${styles.card} ${isVisible ? styles.fadeIn : ""}`}>
-            <a href="">Konekteti</a>
+            <a
+              href="konekteti22.web.app"
+              alt="KPU KMTETI 2022 Lead Election Website"
+            >
+              Konekteti
+            </a>
             <p>Deploying an election mechanism with Firebase Hosting.</p>
           </div>
           {/* Add more cards */}
