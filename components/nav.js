@@ -1,4 +1,3 @@
-"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
@@ -11,7 +10,7 @@ export default function Nav() {
   };
 
   return (
-    <div className="bg-gradient-to-b from-[#55b3] to-[#55B3E6] text-white py-4 px-10 flex items-center justify-between sticky">
+    <div className="bg-gradient-to-b from-blue-500 to-blue-700 text-white py-4 px-10 flex items-center justify-between sticky">
       <Link href="#">
         <div className="flex items-center">
           <div className="flex items-left flex-col">
@@ -25,9 +24,7 @@ export default function Nav() {
 
       <ul className="flex ml-6">
         <li className="mx-4">
-          <Link href="#contact">
-            <h1 className="hover:text-gray-300">Contact</h1>
-          </Link>
+          <Link href="#contact"></Link>
         </li>
         <li className="mx-4">
           <a
