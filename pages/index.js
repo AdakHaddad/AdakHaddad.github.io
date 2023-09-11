@@ -33,7 +33,7 @@ export default function Home() {
           <h1 className="text-8xl md:text-5xl font-bold ">
             Hey there,
             <span className="text-yellow-500">
-              I'm Muhammad Muqtada Alhaddad
+              I&apos;m Muhammad Muqtada Alhaddad
             </span>
           </h1>
           <p className="mt-4 text-lg md:text-xl">
@@ -41,7 +41,7 @@ export default function Home() {
             meaningful web experiences.
           </p>
           <p className="mt-6 text-lg md:text-xl">
-            Let's turn your ideas into reality.
+            Let&apos;s turn your ideas into reality.
           </p>
         </div>
       </section>
