@@ -1,38 +1,22 @@
-import Nav from "@/components/nav";
-import { useState, useEffect } from "react";
 import Head from "next/head";
+import Nav from "@/components/nav";
 
 export default function Home() {
-  const [isVisible, setIsVisible] = useState(false);
-
-  const handleScroll = () => {
-    if (window.scrollY > 200) {
-      setIsVisible(true);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   return (
-    <div>
+    <>
       <Head>
         <title>AdakHaddad</title>
         <meta
           name="description"
           content="Muhammad Muqtada Alhaddad Portfolio"
         />
-        <Nav />
       </Head>
-      <section className=" text-white py-16 text-center">
+      <Nav />
+      <section className="text-white py-16 text-center">
         <div className="flex-col max-w-lg mx-auto">
-          <h1 className="text-8xl md:text-5xl font-bold ">
+          <h1 className="text-8xl md:text-5xl font-bold">
             Hey there,
-            <span className="text-yellow-500">
+            <span className="text-yellow-500 ">
               I&apos;m Muhammad Muqtada Alhaddad
             </span>
           </h1>
@@ -50,13 +34,7 @@ export default function Home() {
         <div className="container mx-auto">
           <h1 className="text-4xl font-bold mb-8 text-white">Past Projects</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div
-              className={`bg-white rounded-lg p-6 ${
-                isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-8 transform transition-all duration-1000"
-              }`}
-            >
+            <div className="bg-white rounded-lg p-6 ">
               <a
                 href="bingke61.vercel.app"
                 alt="Bingke 61 Website"
@@ -68,13 +46,7 @@ export default function Home() {
                 </p>
               </a>
             </div>
-            <div
-              className={`bg-white rounded-lg p-6 ${
-                isVisible
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-8 transform transition-all duration-1000"
-              }`}
-            >
+            <div className="bg-white rounded-lg p-6 ">
               <a
                 href="konekteti22.web.app"
                 alt="KPU KMTETI 2022 Lead Election Website"
@@ -89,6 +61,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }

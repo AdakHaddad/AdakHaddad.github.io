@@ -1,14 +1,7 @@
-import React, { useState } from "react";
 import Link from "next/link";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Nav() {
-  const [showSocial, setShowSocial] = useState(false);
-
-  const handleSocialClick = () => {
-    setShowSocial(!showSocial);
-  };
-
   return (
     <nav className="bg-black bg-opacity-10 text-white py-4">
       <div className="container mx-auto flex items-center justify-between">
