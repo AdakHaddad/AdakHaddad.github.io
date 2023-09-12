@@ -36,7 +36,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6 ">
               <a
-                href="bingke61.vercel.app"
+                href="https://bingke61.vercel.app/"
                 alt="Bingke 61 Website"
                 className="text-2xl font-semibold text-blue-500 hover:underline"
               >
@@ -48,7 +48,7 @@ export default function Home() {
             </div>
             <div className="bg-white rounded-lg p-6 ">
               <a
-                href="konekteti22.web.app"
+                href="https://konekteti22.web.app"
                 alt="KPU KMTETI 2022 Lead Election Website"
                 className="text-2xl font-semibold text-blue-500 hover:underline"
               >
