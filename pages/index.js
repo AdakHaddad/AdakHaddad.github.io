@@ -38,6 +38,20 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg p-6">
               <a
+                href="https://konekteti22.web.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                alt="KPU KMTETI 2022 Lead Election Website"
+                className="text-2xl font-semibold text-blue-500 hover:underline"
+              >
+                Konekteti
+                <p className="mt-4 text-gray-600">
+                  Deploying an election mechanism with Firebase Hosting.
+                </p>
+              </a>
+            </div>
+            <div className="bg-white rounded-lg p-6">
+              <a
                 href="https://bingke61.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -51,15 +65,15 @@ export default function Home() {
             </div>
             <div className="bg-white rounded-lg p-6">
               <a
-                href="https://konekteti22.web.app"
+                href="https://alaminyk.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                alt="KPU KMTETI 2022 Lead Election Website"
+                alt="Al-amin Yogyakarta Webpage"
                 className="text-2xl font-semibold text-blue-500 hover:underline"
               >
-                Konekteti
+                Al-amin Yogyakarta
                 <p className="mt-4 text-gray-600">
-                  Deploying an election mechanism with Firebase Hosting.
+                  Design Organization Profile Page
                 </p>
               </a>
             </div>
