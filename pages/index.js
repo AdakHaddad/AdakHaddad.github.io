@@ -54,7 +54,8 @@ export default function Home() {
                 href="https://konekteti22.web.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xl font-semibold text-blue-500 hover:underline"
+                alt="KPU KMTETI 2022 Lead Election Website"
+                className="text-2xl font-semibold text-blue-500 hover:underline"
               >
                 Konekteti
                 <p className="mt-4 text-gray-600">
