@@ -80,6 +80,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="py-10 px-4 md:py-16 md:px-0 text-leftr">
+        <div className="container mx-auto flex-row">
+          <div className="flex items-center">
+            <img
+              src="/Assets/spark.gif"
+              alt="SparkAR"
+              width="15%"
+              className="fade-in rounded-xl"
+            />
+            <div className="ml-4">
+              <h1 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+                SparkAR
+              </h1>
+              <p>I also created filter on Instagram using SparkAR</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
