@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Nav() {
   return (
-    <nav className="bg-black bg-opacity-10 text-white py-4">
+    <nav className=" text-white py-4">
       <div className="container mx-auto flex items-center justify-between">
         <Link href="/">
           <div className="text-3xl font-bold flex items-center space-x-2">
