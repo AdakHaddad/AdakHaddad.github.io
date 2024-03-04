@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Nav from "@/components/nav";
 import Typewriter from "typewriter-effect";
-
+import Web from "@/components/web";
 export default function Home() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function Home() {
         <title>AdakHaddad</title>
         <meta
           name="description"
-          content="Muhammad Muqtada Alhaddad Portfolio"
+          content="Muhammad Muqtada Alhaddad's Portfolio"
         />
       </Head>
       <Nav />
@@ -35,52 +35,7 @@ export default function Home() {
         </div>
       </section>
       <section className=" py-10 px-4 md:py-16 md:px-0 text-center bg-slate-950 bg-opacity-10 rounded-md ">
-        <h1 className="text-3xl md:text-4xl font-bold mb-8 text-white">
-          Past Projects
-        </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-10 relative ">
-          <a
-            href="https://konekteti22.web.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            alt="KPU KMTETI 2022 Lead Election Website"
-            className="text-2xl font-semibold text-teal-300 "
-          >
-            <div className="bg-white rounded-lg p-6 h-full hover:bg-slate-100">
-              Konekteti
-              <p className="mt-4 text-gray-600">
-                Deploying an election mechanism with Firebase Hosting
-              </p>
-            </div>
-          </a>
-          <a
-            href="https://bingke61.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl font-semibold text-teal-300 "
-          >
-            <div className="bg-white rounded-lg p-6 h-full hover:bg-slate-100">
-              Bingke 61
-              <p className="mt-4 text-gray-600">
-                Designed a simple order page for Bingke 61 cake shop
-              </p>
-            </div>
-          </a>
-          <a
-            href="https://alaminyk.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            alt="Al-amin Yogyakarta Webpage"
-            className="text-2xl font-semibold text-teal-300"
-          >
-            <div className="bg-white rounded-lg p-6 h-full hover:bg-slate-100">
-              Al-amin Yogyakarta
-              <p className="mt-4 text-gray-600">
-                Designed organization profile page
-              </p>
-            </div>
-          </a>
-        </div>
+        <Web />
       </section>
       <section className="py-10 px-4 md:py-16 md:px-0 text-left">
         <div className="container mx-auto grid flex-row">
@@ -107,7 +62,6 @@ export default function Home() {
 
       <section>
         <div className="p-4 md:py-16 md:px-4 font-bold  place-items-center flex gap-2  text-white bg-slate-950 bg-opacity-10 rounded-md">
-          <div></div>
           <p className=" text-lg">
             You can see my CV and certifications on this
           </p>
